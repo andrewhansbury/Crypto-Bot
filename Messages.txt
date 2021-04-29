@@ -1,48 +1,4 @@
-﻿Hai [NTH Founder]
-04/21/2021
-@KJ [NTH Crypto]
-10KJ (Crypto)
-BOT
-04/21/2021
-#🔶︱kj-alerts is now subscribed!
-If you would like to unsubscribe, use the kc.unsubscribe command.(edited)
-Permissions Test
-Checked permissions in #🔶︱kj-alerts
- Send Messages
- Manage Messages
- Embed Links
- Attach Files
- Read Message History
- Mention @everyone, @here, and All Roles
- Add Reactions
- Use External Emojis
-© 2021, Twitter.com/OptionsKJ•04/21/2021KJ (Crypto)
-BOT
-04/21/2021
-@everyone
-Risky Swing
-Coin: SOL/USDT
-Long/Short: Long
-Entry: 34.65-34.8
-Leverage: 20-50x
-Stop Loss: 33.6
-Take profits: 35/35.1/36+
-© 2021, Twitter.com/OptionsKJ•04/21/2021
-1@everyone
-SOL moved quick look for a pullback near entry range for an entry.
-© 2021, Twitter.com/OptionsKJ•04/21/2021@everyone
-Taking 25% off here at PT1, +30%
-© 2021, Twitter.com/OptionsKJ•04/21/2021
-1@everyone
-Taking another 25% off here at PT2, +54%
-© 2021, Twitter.com/OptionsKJ•04/21/2021@everyone
-Taking another 10% off here, +97
-© 2021, Twitter.com/OptionsKJ•04/21/2021
-4@everyone
-Taking another 10% off here, +113%
-© 2021, Twitter.com/OptionsKJ•04/21/2021
-3
-3KJ (Crypto)
+﻿KJ (Crypto)
 BOT
 04/21/2021
 @everyone
@@ -187,19 +143,19 @@ BOT
 10
 2KJ (Crypto)
 BOT
-Yesterday at 3:21 PM
+04/26/2021
 @everyone
 Taking 25% off here, +300%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 3:21 PM
+© 2021, Twitter.com/OptionsKJ•04/26/2021
 5KJ (Crypto)
 BOT
-Yesterday at 8:23 PM
+04/26/2021
 @everyone
 PT3, taking half runners
-© 2021, Twitter.com/OptionsKJ•Yesterday at 8:23 PM
+© 2021, Twitter.com/OptionsKJ•04/26/2021
 2KJ (Crypto)
 BOT
-Yesterday at 9:38 PM
+04/26/2021
 @everyone
 Lotto Swing
 Coin: STMX/USDT
@@ -208,25 +164,25 @@ Entry: .0491
 Leverage: 20-50x
 Stop Loss: .0478
 Take profits: .0493/.0499/.0521/.053
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:38 PM@everyone
+© 2021, Twitter.com/OptionsKJ•04/26/2021@everyone
 Taking 25% off here, +20%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:39 PM@everyone
+© 2021, Twitter.com/OptionsKJ•04/26/2021@everyone
 Taking another 25% off here, +30%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:43 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/26/2021KJ (Crypto)
 BOT
-Yesterday at 10:15 PM
+04/26/2021
 @everyone
 Taking another 10% off here, +80%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 10:15 PM@everyone
+© 2021, Twitter.com/OptionsKJ•04/26/2021@everyone
 Taking another 10% off, +130%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 10:21 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/26/2021KJ (Crypto)
 BOT
-Yesterday at 11:08 PM
+04/26/2021
 @everyone
 Closing the rest of my STMX here.
-© 2021, Twitter.com/OptionsKJ•Yesterday at 11:08 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/26/2021KJ (Crypto)
 BOT
-Today at 8:47 AM
+Yesterday at 8:47 AM
 @everyone
 Risky Swing
 Coin: BNB/USDT
@@ -235,18 +191,94 @@ Entry: 570-572
 Leverage: 20-75x
 Stop Loss: 567
 Take profits: 579/582/588/599
-© 2021, Twitter.com/OptionsKJ•Today at 8:47 AMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•Yesterday at 8:47 AMKJ (Crypto)
 BOT
-Today at 9:12 AM
+Yesterday at 9:12 AM
 @everyone
 Taking 10% off here, +45%
-© 2021, Twitter.com/OptionsKJ•Today at 9:12 AM@everyone
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:12 AM@everyone
 Taking another 10% here, +80%
-© 2021, Twitter.com/OptionsKJ•Today at 9:17 AM@everyone
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:17 AM@everyone
 PT1, taking 10% off here
-© 2021, Twitter.com/OptionsKJ•Today at 9:21 AMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:21 AMKJ (Crypto)
 BOT
-Today at 9:39 AM
+Yesterday at 9:39 AM
 @everyone
 Stopped out of BNB runners here.
-© 2021, Twitter.com/OptionsKJ•Today at 9:39 AM
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:39 AMKJ (Crypto)
+BOT
+Yesterday at 8:22 PM
+@everyone
+Risky Swing
+Coin: ALICE/USDT
+Long/Short: Long
+Entry: 10.5-10.55
+Leverage: 20-50x
+Stop Loss: 10.2
+Take profits: 10.92/11.5/12/12.7
+© 2021, Twitter.com/OptionsKJ•Yesterday at 8:22 PM@everyone
+Trimming 25% here, +50%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 8:24 PMKJ (Crypto)
+BOT
+Yesterday at 9:09 PM
+@everyone
+Taking 10% off here, +75%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:09 PMKJ (Crypto)
+BOT
+Yesterday at 9:21 PM
+@everyone
+Taking 10% here, +130%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:21 PMKJ (Crypto)
+BOT
+Yesterday at 9:30 PM
+@everyone
+Swing
+Coin: AAVE/USDT
+Long/Short: Long
+Entry: 454-455
+Leverage: 20-50x
+Stop Loss: 444
+Take profits: 458/467/479/486
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:30 PM@everyone
+Taking 25% off here at PT1, +40%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:32 PMKJ (Crypto)
+BOT
+Yesterday at 9:45 PM
+@everyone
+Taking 10% off here, +55%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:45 PMKJ (Crypto)
+BOT
+Yesterday at 10:04 PM
+@everyone
+ALICE runners stopped out at breakeven.
+© 2021, Twitter.com/OptionsKJ•Yesterday at 10:04 PMKJ (Crypto)
+BOT
+Yesterday at 11:34 PM
+@everyone
+How to Setup Binance 
+
+ PART A 
+ Create a Coinbase or CashApp account to buy crypto to transfer to your trading account
+ Follow this link and create an Account on Binance.com (Binance US does not offer Futures & the Options Market, to bypass, use a VPN. Proton VPN is free, I use it.)
+ If the Referral Code is not Automatically Inputted after clicking the Drop Down Box next to "Referral ID (Optional)"
+ Manually input: 91626398 (note I do get a kickback from this, as well as you)
+You do not need to verify your identity with your regular Binance Account. You will have a Trading Limit of 2 BTC by default which should be more than enough
+
+ PART B 
+ Buy crypto from either cashapp, coinbase, or your other provider 
+ Go to Binance.com and select wallet
+ Go to BTC and click Deposit
+ Copy the Deposit address
+ Withdraw your BTC to your Bianance Deposit Address
+ Once the funds arrive go to Markets on Binance
+ Select the Spot Market and select USDT/BTC
+ Convert your BTC for USDT
+ Open your Binance Futures account 
+ Do the Quiz
+ Click on wallets and then click on Transfer
+ Transfer your USDT from your spot wallet to your Binance Futures USD M Wallet.
+
+Let me know if you have any questions. Don’t hesitate to DM me with any questions you might have.
+© 2021, Twitter.com/OptionsKJ•Yesterday at 11:34 PM
+3
+1

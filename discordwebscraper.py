@@ -1,17 +1,17 @@
+# TEST BRANCH | Faster testing because it pulls messages from text file instead of Discord
+
 import string
 from typing import List
 from selenium import webdriver
-import discord
-import time
+import string
+import pickle
 import codecs
 import os
 os.system('cls')
 
 
-# rgwpibwbobopgvbiwbipevbpwbpi
-
 DRIVER_PATH = 'chromedriver.exe'
-driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+#driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
 
 def login():
@@ -42,10 +42,22 @@ def importTrades():
         for message in sent:
             messages.append((message.text.lower()))
             file.write(message.text)
-
     file.close()
 
     return messages
+
+
+def saveToFile():
+    messages = []
+    driver.implicitly_wait(10)
+    sent = driver.find_elements_by_class_name(
+        "message-2qnXI6")
+    for message in sent:
+        messages.append((message.text.lower()))
+
+    with open('Messages.txt', 'wb') as file:
+        pickle.dump(messages, file, protocol=pickle.HIGHEST_PROTOCOL)
+    file.close()
 
 
 def getTrade(messages):
@@ -59,6 +71,7 @@ def getTrade(messages):
     #     else:
     #         messages.pop(message)
     # for message in messages:
+    #     print(message)
 
     trade_list = [x for x in messages if "coin:" in x]
     for message in trade_list:
@@ -69,11 +82,13 @@ def getTrade(messages):
 
 def main():
 
-    driver.get(
-        'https://discord.com/login?redirect_to=%2Fchannels%2F646144563802800139%2F834441984314834944')
-    print("Connected to Discord! \n")
-    login()
-    trade_array = importTrades()
+    # driver.get(
+    #    'https://discord.com/login?redirect_to=%2Fchannels%2F646144563802800139%2F834441984314834944')
+    #print("Connected to Discord! \n")
+    # login()
+    # saveToFile()()
+    with open('Messages.txt', 'rb') as file:
+        trade_array = pickle.load(file)
     getTrade(trade_array)
 
 

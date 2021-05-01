@@ -1,103 +1,5 @@
 ﻿KJ (Crypto)
 BOT
-04/21/2021
-@everyone
-Still holding 30% of the position, moved stop loss up to entry
-© 2021, Twitter.com/OptionsKJ•04/21/2021Hai [NTH Founder]
-04/21/2021
-@everyone KJ is actually fire
-6
-5KJ (Crypto)
-BOT
-04/23/2021
-@everyone
-SE stop loss is under 252 with targets of 258, 260. Will be swinging the remaining contracts until either stop or pt is hit.
-© 2021, Twitter.com/OptionsKJ•04/23/2021KJ [NTH Crypto]
-04/23/2021
-ignoreKJ (Crypto)
-BOT
-04/23/2021
-@everyone
-Risky Swing
-Coin: HNT/USDT
-Long/Short: Long
-Entry: 13.50-13.6
-Leverage: 20-50x
-Stop Loss: 13.13
-Take profits: 13.94/14.1/14.58/14.85
-© 2021, Twitter.com/OptionsKJ•04/23/2021@everyone
-Taking 25% off here, +55%
-© 2021, Twitter.com/OptionsKJ•04/23/2021@everyone
-Taking another 10% off here, +102%**
-© 2021, Twitter.com/OptionsKJ•04/23/2021KJ (Crypto)
-BOT
-04/23/2021
-@everyone
-I am holding HNT and moving the stop loss up to 13.15. Still holding 65% of original position.
-© 2021, Twitter.com/OptionsKJ•04/23/2021@everyone
-HNT/USDT TA
-© 2021, Twitter.com/OptionsKJ•04/23/2021KJ (Crypto)
-BOT
-04/23/2021
-@everyone
-Taking another 25% off here, +250%
-© 2021, Twitter.com/OptionsKJ•04/23/2021@everyone
-Taking 10% off here at PT3, +372%
-© 2021, Twitter.com/OptionsKJ•04/23/2021KJ (Crypto)
-BOT
-04/23/2021
-@everyone
-How to Setup Binance 
-
- PART A 
- Create a Coinbase or CashApp account to buy crypto to transfer to your trading account
- Follow this link and create an Account on Binance.com (Binance US does not offer Futures & the Options Market, to bypass, use a VPN. Proton VPN is free, I use it.)
- If the Referral Code is not Automatically Inputted after clicking the Drop Down Box next to "Referral ID (Optional)"
- Manually input: 91626398 (note I do get a kickback from this, as well as you)
-You do not need to verify your identity with your regular Binance Account. You will have a Trading Limit of 2 BTC by default which should be more than enough
-
- PART B 
- Buy crypto from either cashapp, coinbase, or your other provider 
- Go to Binance.com and select wallet
- Go to BTC and click Deposit
- Copy the Deposit address
- Withdraw your BTC to your Bianance Deposit Address
- Once the funds arrive go to Markets on Binance
- Select the Spot Market and select USDT/BTC
- Convert your BTC for USDT
- Open your Binance Futures account 
- Do the Quiz
- Click on wallets and then click on Transfer
- Transfer your USDT from your spot wallet to your Binance Futures USD M Wallet.
-
-Let me know if you have any questions. Don’t hesitate to DM me with any questions you might have.
-© 2021, Twitter.com/OptionsKJ•04/23/2021
-6
-2
-2
-2
-1KJ (Crypto)
-BOT
-04/25/2021
-@everyone
-Swing
-Coin: HNT/USDT
-Long/Short: Long
-Entry: 13.95-14
-Leverage: 20-50x
-Stop Loss: 13.8
-Take profits:
-© 2021, Twitter.com/OptionsKJ•04/25/2021
-1@everyone
-Take profits: 14.28/14.6/15.2/17
-© 2021, Twitter.com/OptionsKJ•04/25/2021@everyone
-Taking 25% off here
-© 2021, Twitter.com/OptionsKJ•04/25/2021
-1@everyone
-taking another 25% off at PT1, +110%
-© 2021, Twitter.com/OptionsKJ•04/25/2021
-1KJ (Crypto)
-BOT
 04/25/2021
 @everyone
 HNT TA
@@ -182,7 +84,7 @@ BOT
 Closing the rest of my STMX here.
 © 2021, Twitter.com/OptionsKJ•04/26/2021KJ (Crypto)
 BOT
-Yesterday at 8:47 AM
+04/27/2021
 @everyone
 Risky Swing
 Coin: BNB/USDT
@@ -191,23 +93,23 @@ Entry: 570-572
 Leverage: 20-75x
 Stop Loss: 567
 Take profits: 579/582/588/599
-© 2021, Twitter.com/OptionsKJ•Yesterday at 8:47 AMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 9:12 AM
+04/27/2021
 @everyone
 Taking 10% off here, +45%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:12 AM@everyone
+© 2021, Twitter.com/OptionsKJ•04/27/2021@everyone
 Taking another 10% here, +80%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:17 AM@everyone
+© 2021, Twitter.com/OptionsKJ•04/27/2021@everyone
 PT1, taking 10% off here
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:21 AMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 9:39 AM
+04/27/2021
 @everyone
 Stopped out of BNB runners here.
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:39 AMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 8:22 PM
+04/27/2021
 @everyone
 Risky Swing
 Coin: ALICE/USDT
@@ -216,21 +118,21 @@ Entry: 10.5-10.55
 Leverage: 20-50x
 Stop Loss: 10.2
 Take profits: 10.92/11.5/12/12.7
-© 2021, Twitter.com/OptionsKJ•Yesterday at 8:22 PM@everyone
+© 2021, Twitter.com/OptionsKJ•04/27/2021@everyone
 Trimming 25% here, +50%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 8:24 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 9:09 PM
+04/27/2021
 @everyone
 Taking 10% off here, +75%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:09 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 9:21 PM
+04/27/2021
 @everyone
 Taking 10% here, +130%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:21 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 9:30 PM
+04/27/2021
 @everyone
 Swing
 Coin: AAVE/USDT
@@ -239,21 +141,21 @@ Entry: 454-455
 Leverage: 20-50x
 Stop Loss: 444
 Take profits: 458/467/479/486
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:30 PM@everyone
+© 2021, Twitter.com/OptionsKJ•04/27/2021@everyone
 Taking 25% off here at PT1, +40%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:32 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 9:45 PM
+04/27/2021
 @everyone
 Taking 10% off here, +55%
-© 2021, Twitter.com/OptionsKJ•Yesterday at 9:45 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 10:04 PM
+04/27/2021
 @everyone
 ALICE runners stopped out at breakeven.
-© 2021, Twitter.com/OptionsKJ•Yesterday at 10:04 PMKJ (Crypto)
+© 2021, Twitter.com/OptionsKJ•04/27/2021KJ (Crypto)
 BOT
-Yesterday at 11:34 PM
+04/27/2021
 @everyone
 How to Setup Binance 
 
@@ -279,6 +181,115 @@ You do not need to verify your identity with your regular Binance Account. You w
  Transfer your USDT from your spot wallet to your Binance Futures USD M Wallet.
 
 Let me know if you have any questions. Don’t hesitate to DM me with any questions you might have.
-© 2021, Twitter.com/OptionsKJ•Yesterday at 11:34 PM
-3
-1
+© 2021, Twitter.com/OptionsKJ•04/27/2021
+4
+2KJ (Crypto)
+BOT
+04/29/2021
+@everyone
+Scalp/Swing
+Coin: LINK/USDT
+Long/Short: Long
+Entry: 36.3-36.4
+Leverage: 20-75x
+Stop Loss: 36.7
+Take profits: 37.48/37.6/37.82/38.32
+© 2021, Twitter.com/OptionsKJ•04/29/2021@everyone
+CORRECTION
+LINK entry is 37.2-37.4
+© 2021, Twitter.com/OptionsKJ•04/29/2021KJ (Crypto)
+BOT
+04/29/2021
+@everyone
+Stopped out of LINKUSDT @36.7. BTC broke down. First sl in 3 weeks
+© 2021, Twitter.com/OptionsKJ•04/29/2021
+4KJ (Crypto)
+BOT
+04/29/2021
+@everyone
+Scalp/Swing
+Coin: BNB/USDT
+Long/Short: Long
+Entry: 598-601
+Leverage: 20-75x
+Stop Loss: 595
+Take profits: 602/613/615/640
+© 2021, Twitter.com/OptionsKJ•04/29/2021@everyone
+Taking 25% off at PT1, +40%
+© 2021, Twitter.com/OptionsKJ•04/29/2021@everyone
+Taking another 25% off, +28%
+© 2021, Twitter.com/OptionsKJ•04/29/2021KJ (Crypto)
+BOT
+Yesterday at 2:13 PM
+@everyone
+Crypto Position Sizing Guide
+Margin Mode 
+ I will always use cross mode unless specified otherwise. Cross mode allows more space for your positions to breathe. In the event of liquidation, you would lose all of your balance and open positions. 
+ Make sure to set stop losses to maintain your account balance and open positions. 
+
+ Position Sizing 
+Normal Alert: 10% of your account
+Risky Alert: 3-5% of your account
+Lotto Alert: 1.5% of your account
+
+ Stop Losses 
+I typically use trade invalidation as my primary stop loss. 
+ My hard stop loss is -200% meaning any position that is down -200%, I will look to close it. 
+This prevents losers from blowing your account up on cross margin. Do not wait for me to signal a stop loss, you should set this as soon as you enter a position. 
+
+ Trimming 
+I recommend trimming winning positions at 30%, 50%, 100% and more. At my PTs, I will look to close 25% of my current position size to control my risk. I will also trim my winning positions just in case the play does go south, we have already taken profits. 
+Do not wait for a signal for a stop loss in profits. I recommend placing a stop loss at 0% once a position reaches over 100%. This will prevent a winning position turning into a losing position. 
+
+ Success 
+By applying this same strategy, and your account you will grow consistently over time. 
+ This is calculated by using past data and should not be indicative of future results. This should not make you want to overrisk your account as losses are inevitable and come with winning plays.
+© 2021, Twitter.com/OptionsKJ•Yesterday at 2:13 PMKJ (Crypto)
+BOT
+Yesterday at 7:45 PM
+@everyone
+Light Starter Swing
+Coin: ALPHA/USDT
+Long/Short: Long
+Entry: 1.91-1.92
+Leverage: 20-50x
+Stop Loss: 1.74 (mental)
+Take profits: 1.96/2.02/2.09/2.31
+© 2021, Twitter.com/OptionsKJ•Yesterday at 7:45 PM
+1@everyone
+Taking 25% off here, +60%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 7:52 PM
+1KJ (Crypto)
+BOT
+Yesterday at 8:57 PM
+@everyone
+Taking another 25% off here, +230%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 8:57 PM
+2@everyone
+Taking another 10% here, +335%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 8:59 PM@everyone
+Taking 10% off here, +400%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:02 PMKJ (Crypto)
+BOT
+Yesterday at 9:21 PM
+@everyone
+Risky Swing
+Coin: ANKR/USDT
+Long/Short: Long
+Entry: .1845-.185
+Leverage: 20-50x
+Stop Loss: .183 (mental)
+Take profits: .1912/.1966/.206/.2166
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:21 PM
+1@everyone
+Taking 25% off here, +40%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:22 PM@everyone
+Taking another 25% off here, +77%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:24 PM@everyone
+Taking another 10% off here, +110%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 9:26 PMKJ (Crypto)
+BOT
+Yesterday at 10:30 PM
+@everyone
+Taking 10% off here, +540%
+© 2021, Twitter.com/OptionsKJ•Yesterday at 10:30 PM

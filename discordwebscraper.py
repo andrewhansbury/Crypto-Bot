@@ -87,7 +87,7 @@ def getTrade(messages):
     return trade_list
 
 
-def format_trade(messages):
+def formatTrade(messages):
     # saves trades formatted as a pickled object onto the file saved_trades.txt
     saved_trades = []
     assert isinstance(messages, List)
@@ -141,7 +141,7 @@ def main():
     with open('Messages.txt', 'rb') as file:
         trade_array = pickle.load(file)
     tradelist = getTrade(trade_array)
-    format_trade(tradelist)
+    formatTrade(tradelist)
     loadTrades()
 
 

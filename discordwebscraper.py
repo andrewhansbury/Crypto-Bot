@@ -1,17 +1,23 @@
 # TEST BRANCH | Faster testing because it pulls messages from text file instead of Discord
-
-import string
-from typing import List
-from selenium import webdriver
-import string
-import pickle
-import codecs
 import os
+import codecs
+import pickle
+from selenium import webdriver
+from typing import List
+import string
+import time
+start_time = time.time()
 os.system('cls')
 
 
 DRIVER_PATH = 'chromedriver.exe'
 #driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+
+
+def connect():
+    driver.get(
+        'https://discord.com/login?redirect_to=%2Fchannels%2F646144563802800139%2F834441984314834944')
+    print("Connected to Discord! \n")
 
 
 def login():
@@ -74,23 +80,71 @@ def getTrade(messages):
     #     print(message)
 
     trade_list = [x for x in messages if "coin:" in x]
-    for message in trade_list:
-        message = message[message.index("coin"):]
-        print(message)
-        print()
+    # for message in trade_list:
+    #     message = message[message.index("coin"):]
+    #     print(message)
+    #     print()
+    return trade_list
+
+
+def format_trade(messages):
+    # saves trades formatted as a pickled object onto the file saved_trades.txt
+    saved_trades = []
+    assert isinstance(messages, List)
+
+    for message in messages:
+        trade = {}
+        assert isinstance(message, str)
+
+        message = message.lower()
+        if "coin" in message:
+            str1 = message.split("coin:")[1].strip()
+            coin = str1[0:str1.index('/')]
+            trade['coin'] = coin
+        if "short:" in message:
+            str2 = message.split("short:")[1].strip()
+            t_type = str2[0:str2.index('\n')]
+            trade['type'] = t_type
+        if "entry:" in message:
+            str3 = message.split("entry:")[1].strip()
+            entry = str3[0:str3.index('\n')]
+            trade['entry'] = entry
+        if "leverage:" in message:
+            str4 = message.split("leverage:")[1].strip()
+            leverage = str4[0:str4.index('\n')]
+            trade['leverage'] = leverage
+        if "stop loss:" in message:
+            str5 = message.split("stop loss:")[1].strip()
+            stop_loss = str5[0:str5.index('\n')]
+            trade['stop loss'] = stop_loss
+        saved_trades.append(trade)
+
+    with open('saved_trades.txt', 'wb') as file:
+        pickle.dump(saved_trades, file, protocol=pickle.HIGHEST_PROTOCOL)
+    file.close()
+    print("Trades Saved to saved_trades.txt")
+
+
+def loadTrades():
+    # returns list of read
+    all_trades = []
+    with open('saved_trades.txt', 'rb') as file:
+        all_trades = pickle.load(file)
+    print(all_trades)
+    return all_trades
 
 
 def main():
-
-    # driver.get(
-    #    'https://discord.com/login?redirect_to=%2Fchannels%2F646144563802800139%2F834441984314834944')
-    #print("Connected to Discord! \n")
+    # connect()
     # login()
-    # saveToFile()()
+    # saveToFile()
     with open('Messages.txt', 'rb') as file:
         trade_array = pickle.load(file)
-    getTrade(trade_array)
+    tradelist = getTrade(trade_array)
+    format_trade(tradelist)
+    loadTrades()
 
 
 if __name__ == "__main__":
     main()
+    print("--- %s seconds ---" % (time.time() - start_time))

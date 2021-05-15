@@ -53,6 +53,7 @@ def saveToFile():
         pickle.dump(messages, file, protocol=pickle.HIGHEST_PROTOCOL)
 
     file.close()
+    return messages
 
 
 # change this to a more accurate name tho tbh
@@ -152,8 +153,8 @@ def main():
     login()
     saveToFile()
     with open('Messages.txt', 'rb') as file:
-        trade_array = pickle.load(file)
-    tradelist = getTrade(trade_array)
+        messages_array = pickle.load(file)
+    tradelist = getTrade(messages_array)
     formatTrade(tradelist)
     loadTrades()
 

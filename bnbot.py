@@ -20,3 +20,7 @@ print(futures['totalWalletBalance'])
 
 for f in futures:
     print(f)
+
+
+def place_trade(trade):
+    pass

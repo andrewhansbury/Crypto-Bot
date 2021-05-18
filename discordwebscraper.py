@@ -40,10 +40,10 @@ def login():
         pass
 
 
-def saveToFile():
+def read_and_save():
     messages = []
     driver.implicitly_wait(20)
-    print("Logged In! \n\n")
+
     sent = driver.find_elements_by_class_name(
         "message-2qnXI6")
     for message in sent:
@@ -98,7 +98,7 @@ def formatTrade(messages):
     assert isinstance(messages, List)
 
     for message in messages:
-        print(message)
+        # print(message)
         trade = {}
         assert isinstance(message, str)
 
@@ -135,7 +135,7 @@ def formatTrade(messages):
     with open('saved_trades.txt', 'wb') as file:
         pickle.dump(saved_trades, file, protocol=pickle.HIGHEST_PROTOCOL)
     file.close()
-    print("Trades Saved to saved_trades.txt")
+    #print("Trades Saved to saved_trades.txt")
 
 
 def loadTrades():
@@ -143,20 +143,25 @@ def loadTrades():
     all_trades = []
     with open('saved_trades.txt', 'rb') as file:
         all_trades = pickle.load(file)
-    for trade in all_trades:
-        print(trade)
+    # for trade in all_trades:
+    #    print(trade)
     return all_trades
+
+
+def file_to_trades():
+    # returns list of Dictionaries, Each containing trade data
+    with open('Messages.txt', 'rb') as file:
+        messages_array = pickle.load(file)
+    tradelist = getTrade(messages_array)
+    formatTrade(tradelist)
+    return loadTrades()
 
 
 def main():
     connect()
     login()
-    saveToFile()
-    with open('Messages.txt', 'rb') as file:
-        messages_array = pickle.load(file)
-    tradelist = getTrade(messages_array)
-    formatTrade(tradelist)
-    loadTrades()
+    read_and_save()
+    file_to_trades()
 
 
 if __name__ == "__main__":

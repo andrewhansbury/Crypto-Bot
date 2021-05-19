@@ -1,7 +1,8 @@
+from binance.enums import *
 from binance.client import Client
-from os import system
+
 import config
-system('clear')
+
 
 client = Client(config.api_key, config.api_secret)
 
@@ -18,8 +19,12 @@ account = info['accountType']
 futures = client.futures_account()
 print(futures['totalWalletBalance'])
 
-for f in futures:
-    print(f)
+# for f in futures:
+#     print(f)
+x = client.futures_exchange_info()
+print(x)
+for i in x:
+    print(i)
 
 
 def place_trade(trade):

@@ -11,7 +11,7 @@ info = client.get_account()
 
 
 account = info['accountType']
-#balances = info['balances']
+# balances = info['balances']
 
 # print(account)
 # for i in info:
@@ -19,12 +19,18 @@ account = info['accountType']
 futures = client.futures_account()
 print(futures['totalWalletBalance'])
 
-# for f in futures:
-#     print(f)
-x = client.futures_exchange_info()
-print(x)
-for i in x:
-    print(i)
+
+# FIND MAX AND MIN LEVRAGE OF COIN
+
+def maxLeverage(pair):
+    result = client.futures_leverage_bracket()
+    for x in result:
+        if 'BTCUSDT' in x['symbol']:
+            print(x)
+            print('\n')
+
+
+print(maxLeverage('ETHUSDT'))
 
 
 def place_trade(trade):

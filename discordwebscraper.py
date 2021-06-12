@@ -16,11 +16,11 @@ driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
 def connect():
     driver.get(
-        'https://discord.com/login?redirect_to=%2Fchannels%2F646144563802800139%2F834441984314834944')
+        'https://discord.com/login?redirect_to=%2Fchannels%2F804000238619852832%2F832401090099413043')
     print("Connected to Discord! \n\n")
 
 
-def login():
+# def login():
     try:
         email_input = driver.find_element_by_xpath(
             "/html/body/div/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[2]/div[1]/div/div[2]/input")
@@ -29,7 +29,7 @@ def login():
         pass_input = driver.find_element_by_xpath(
             "//*[@id=\"app-mount\"]/div[2]/div/div/form/div/div/div[1]/div[2]/div[2]/div/input")
 
-        pass_input.send_keys("Andr1234")
+        pass_input.send_keys("")
 
         submit_button = driver.find_element_by_xpath(
             "//*[@id=\"app-mount\"]/div[2]/div/div/form/div/div/div[1]/div[2]/div[2]/div/input")
@@ -159,7 +159,7 @@ def file_to_trades():
 
 def main():
     connect()
-    login()
+    # login()
     read_and_save()
     file_to_trades()
 

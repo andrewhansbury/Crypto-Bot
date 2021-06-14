@@ -37,14 +37,11 @@ def maxLeverage(symbol):
 
 
 print(maxLeverage('DOGEUSDT'))
-x = {'symbol': 'DOGEUSDT', 'leverage': 45}
-print(client.futures_change_leverage(
-    **x))
-client.futures_coin_change_leverage(**x)
 
 
+client.futures_change_leverage(symbol='BTCUSDT', leverage=25)
 #client.futures_change_margin_type(symbol='DOGEUSDT', marginType='CROSSED')
-x = {'symbol': 'DOGEUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 100.0}
+x = {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': .001}
 
 client.futures_create_order(**x)
 

@@ -35,8 +35,8 @@ def main():
             print("Caught ERROR")
 
         else:
-            # bnbot.place_trade()
-            print("\nNew Trade!\n")
+            bnbot.place_trade(updated_last_trade)
+            print("\n*********PLACED NEW TRADE!*********\n")
             print("Previous Trade: " + str(last_trade))
             print("New Trade:      " + str(updated_last_trade))
 

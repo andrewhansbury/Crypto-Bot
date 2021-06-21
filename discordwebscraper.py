@@ -16,7 +16,7 @@ driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
 def connect():
     driver.get(
-        'https://discord.com/login?redirect_to=%2Fchannels%2F804000238619852832%2F832401090099413043')
+        'https://discord.com/login?redirect_to=%2Fchannels%2F804000238619852832%2F850604251172438016')
     print("Connected to Discord! \n\n")
 
 
@@ -42,7 +42,7 @@ def connect():
 
 def read_and_save():
     messages = []
-    driver.implicitly_wait(20)
+    driver.implicitly_wait(25)
 
     sent = driver.find_elements_by_class_name(
         "message-2qnXI6")
@@ -84,7 +84,7 @@ def getTrade(messages):
     # for message in messages:
     #     print(message)
 
-    trade_list = [x for x in messages if "coin:" in x]
+    trade_list = [x for x in messages if "ticker :" in x]
     # for message in trade_list:
     #     message = message[message.index("coin"):]
     #     print(message)
@@ -103,33 +103,38 @@ def formatTrade(messages):
         assert isinstance(message, str)
 
         message = message.lower()
-        if "coin" in message:
-            str1 = message.split("coin:")[1].strip()
+
+        if "ticker" in message:
+            str1 = message.split("ticker :")[1].strip()
             coin = str1[0:str1.index('/')]
             trade['coin'] = coin
-        if "short:" in message:
-            str2 = message.split("short:")[1].strip()
-            t_type = str2[0:str2.index('\n')]
-            trade['type'] = t_type
-        if "entry:" in message:
-            str3 = message.split("entry:")[1].strip()
+
+            type = str1[str1.index('/')+1:str1.index('\n')].strip()
+            trade['type'] = type
+
+        if "entry :" in message:
+            str3 = message.split("entry :")[1].strip()
             entry = str3[0:str3.index('\n')]
             trade['entry'] = entry
-        if "leverage:" in message:
-            str4 = message.split("leverage:")[1].strip()
+
+        if "leverage :" in message:
+            str4 = message.split("leverage :")[1].strip()
             leverage = str4[0:str4.index('\n')]
             trade['leverage'] = leverage
-        if "stop loss:" in message:
-            str5 = message.split("stop loss:")[1].strip()
-            stop_loss = str5[0:str5.index('\n')]
-            trade['stop loss'] = stop_loss
-        if "take profits:" in message or "take profit" in message:
+
+        if "tp marks :" in message or "take profit" in message:
             try:
-                str6 = message.split("take profits:")[1].strip()
+                str6 = message.split("tp marks :")[1].strip()
             except:
                 str6 = message.split("take profit:")[1].strip()
             take_profit = str6[0:str6.index('\n')]
             trade['take profits'] = take_profit
+
+        if "stop loss :" in message:
+            str5 = message.split("stop loss :")[1].strip()
+            stop_loss = str5[0:str5.index('\n')]
+            trade['stop loss'] = stop_loss
+
         saved_trades.append(trade)
 
     with open('saved_trades.txt', 'wb') as file:
@@ -152,8 +157,11 @@ def file_to_trades():
     # returns list of Dictionaries, Each containing trade data
     with open('Messages.txt', 'rb') as file:
         messages_array = pickle.load(file)
+
     tradelist = getTrade(messages_array)
+
     formatTrade(tradelist)
+
     return loadTrades()
 
 

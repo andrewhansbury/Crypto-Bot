@@ -1,4 +1,5 @@
 #from discordwebscraper import main
+#from discordwebscraper import main
 from typing import List
 from binance.enums import *
 from binance.client import Client
@@ -79,22 +80,31 @@ def place_trade(trade):
     quantity_str = str(position_size(symbol, 10, maxLeverage(symbol)))
     precision = get_precision(symbol)
     quantity = quantity_str[0:quantity_str.index('.')+precision+1]
-    print(quantity)
-    client.futures_create_order(symbol=symbol, side=side, type='LIMIT',
-                                quantity=quantity, price=get_last_price(symbol), timeInForce='GTC')
+
+    # Set Price Buffer
+    price = get_last_price(symbol)
+    print(price)
+    price_length = len(str(price))
+    buffered_price = price * 1.0007
+    buffered_price = str(buffered_price)[0:price_length]
+    print(buffered_price)
+
+    type = 'market'
     try:
         client.futures_change_leverage(
             symbol=symbol, leverage=maxLeverage(symbol))
-        client.futures_create_order(symbol=symbol, side=side, type='LIMIT',
-                                    quantity=quantity, price=get_last_price(), timeInForce='GTC')
+        if type == 'limit':
+            client.futures_create_order(symbol=symbol, side=side, type='LIMIT',
+                                        quantity=quantity, price=buffered_price, timeInForce='GTC')
+        elif type == 'market':
+            client.futures_create_order(symbol=symbol, side=side, type='MARKET',
+                                        quantity=quantity,)
 
     except:
         print("ERROR COULD NOT PLACE TRADE")
 
 
 if __name__ == "__main__":
-    trade = {'coin': 'lit', 'type': 'long', 'entry': '3.31-3.42',
-             'leverage': '20-50x', 'stop loss': '3.28', 'take profits': '** 3.49/3.55/3.79'}
-    place_trade(trade)
+    pass
 
     # print(type(futures_balance()))
